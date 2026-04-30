@@ -5,7 +5,17 @@
   box-sizing: border-box;
   font-family:"Poppins", sans-serif;
 }
-
+/* This triggers for any screen smaller than 450px (phones) */
+@media (max-width: 450px) {
+    .wrapper {
+        width: 90%;      /* Make the box 90% of the screen width */
+        padding: 30px;   /* Slightly less padding */
+    }
+    
+    h1 {
+        font-size: 28px; /* Make text a bit smaller */
+    }
+}
 
 body{
  display:flex;
